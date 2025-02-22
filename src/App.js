@@ -9,7 +9,7 @@ function App() {
   }
   return (
     <>
-      <form onSubmit={(e) => e.preventDefault()} className="bg-gray-500 w-[25%] mx-auto mt-[100px] p-5 flex justify-center rounded-md">
+      <form onSubmit={(e) => e.preventDefault()} className="bg-gray-500 w-3/4 md:w-[50%] mx-auto mt-[100px] p-5 flex justify-center rounded-md">
         <div className="w-full">
           <label htmlFor="userName"></label>
           <input onChange={(e) => setUserName(e.target.value)} className="block w-full m-auto rounded p-1 outline-none" type="text" autoFocus placeholder="Enter The userName" id="userName"></input>
